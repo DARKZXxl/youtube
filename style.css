@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 5px 0px 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.material-symbols-outlined {
+    color: white;
+    letter-spacing: 10px;
+}
+
+.material-symbols-outlined:hover {
+    cursor: default;
+}
+
+header > .icons {
+    margin-left: 236px;
+    margin-top: -60px;
+}
+
+#bulsola {
+    margin-top: 20px;
+    padding: 0px 0px 0px 5px;
+}
+
+.button {
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+button {
+    padding: 4px 9px 4px 9px;
+    border-radius: 4px;
+    font-family: arial;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.516);
+}
+
+.colorido {
+    background: linear-gradient(#000, #000)
+    padding-box,
+    linear-gradient(90deg,
+    #30dfd4, #7d3bdf, #e827db, #c022a0, #e53434, #e36b26) border-box;
+    border: 1px solid transparent;
+}
+
+iframe {
+    width: 100%;
+    padding-top: 10px;
+    height: 200px;
+}
+
+
+.perfil {
+    border-radius: 50%;
+    height: 40px;
+    padding: 5px;
+}
+
+.perfil:hover {
+    background-color: #ffffff;
+    
+}
+
+.nome {
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: -45px;
+}
+
+.pequeno {
+    font-size: 13px;
+    color: #ffffffa4;
+    margin-left: 60px;
+    margin-top: 3px;
+}
+
+.branco {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffffa4;
+}
