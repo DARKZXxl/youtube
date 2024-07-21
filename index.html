@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>youtube</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <img src="th (1).jpg" height="70px" style="position: relative; bottom: 10px;">
+        <img src="img/th (1).jpg" height="70px" style="position: relative; bottom: 10px;">
         <div class="icons">
             <span class="material-symbols-outlined">
             connected_tv
@@ -30,32 +30,97 @@
                 explore
                 </span>
         </nav>
-        <div class="button">
-            <button onclick="clicar()">Tudo</button>
-            <button class="colorido">Novidades para voce</button>
+        <div class="button" >
+            <button id="tudo" onclick="voltar()">Tudo</button>
+            <button class="colorido" onclick="clicar()" id="novidades">Novidades para voce</button>
             <button>Jogos</button>
         </div>
     </header>
     <main id="pag1">
-        <section class="video1">
-            <iframe src="https://www.youtube.com/embed/MkrBADf9TD8" title="Prime Prime" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
-            <img src="th.jpg" alt="" class="perfil">
+
+        <section>
+            <iframe src="https://www.youtube.com/embed/MkrBADf9TD8" title="Prime Prime" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen  class="video"></iframe>
+            <img src="img/th.jpg" alt="" class="perfil">
             <p class="nome">Ta no Ar o Prime Day</p>
             <p class="pequeno">Seis dias de ofertas com frete gratis</p>
             <p class="pequeno"><strong><span class="branco">patrocinado</span></strong> . <a href="https://www.amazon.com.br/">amazon.com.br</a></p>
         </section>
-        <section class="video2">
-            <iframe src="https://www.youtube.com/embed/lIiZu-94PBk?si=w5t4R6hfHce0eUdn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo"><img src="th (2).jpg" class="perfil"></a>
+
+        <section>
+            <iframe src="https://www.youtube.com/embed/lIiZu-94PBk?si=w5t4R6hfHce0eUdn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+            <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo"><img src="img/th (2).jpg" class="perfil"></a>
             <p class="nome">Sua primeira tabela em HTML - @Curso em Vídeo HTML5 e CSS3</p>
             <p class="pequeno">curso em video . 81 mil visualizacoes . ha 2 anos</p>
         </section>
+
+        <section>
+            <iframe src="https://www.youtube.com/embed/BSnjW2DKd9k" title="NINGUÉM sabe quanto PESA 1 KG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+            <a href="https://www.youtube.com/@CienciaTodoDia"><img src="img/unnamed.jpg" class="perfil"></a>
+            <p class="nome">NINGUÉM sabe quanto PESA 1 KG</p>
+            <p class="pequeno">Ciencia Todo Dia . 707 mil visualizacoes . há 1 mes</p>
+        </section>
+
+        <section>
+            <iframe width="914" height="514" src="https://www.youtube.com/embed/4SNThp0YiU4" title="50 YouTubers Disputam US$ 1,000,000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+            <a href="https://www.youtube.com/@MrBeast"><img src="img/channels4_profile.jpg" alt="" class="perfil"></a>
+            <p class="nome">50 YouTubers Disputam US$ 1,000,000</p>
+            <p class="pequeno">MrBeast . 164 mi de visualizacoes . há 8 dias</p>
+        </section>
+        <div class="shortimg">
+            <img src="img/shorts.png" width="30px" class="shortiimg">
+                <h2>short</h2>
+            </img>
+        </div>
+        <section id="short">
+            <iframe src="https://www.youtube.com/embed/qO60JQ8qDqY" title="Vida de polícia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+
+            <iframe src="https://www.youtube.com/embed/v0a1vylbP_8" title="Costela coroa 👑" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+
+            <iframe src="https://www.youtube.com/embed/-XA47Czd9eU" title="R$2,00 para cada segundo que você ficar na Barra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+            <iframe width="356" height="634" src="https://www.youtube.com/embed/9ZjI9LdgHUY" title="🤣ROUBEI O BOLO DA MINHA AVÓ (feat. @rosangela_rigoni)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+        </section>
+        
+        <section>
+             <iframe width="914" height="514" src="https://www.youtube.com/embed/W_QuHtlv8j8" title="EU ZEREI O SKYBLOCK DO MINECRAFT EM 2024!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+        <a href="https://www.youtube.com/@Jazzghost"><img src="img/gost.jpg" alt="" class="perfil"></a>
+        <p class="nome">EU ZEREI O SKYBLOCK DO MINECRAFT EM 2024!
+        </p>
+        <p class="pequeno">Jazzghost . 2,8 mi de visualizacoes . há 3 meses</p>
+        </section>
+
+        <section>
+            <iframe width="914" height="514" src="https://www.youtube.com/embed/Zrv1EDIqHkY" title="O Mais Antigo Problema Não Resolvido da Matemática" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+            <a href="https://www.youtube.com/@veritasium"><img src="img/mate.jpg" alt="" class="perfil"></a>
+            <p class="nome">O Mais Antigo Problema Não Resolvido da Matemática
+            </p>
+            <p class="pequeno">Veritasium . 8,7 mi de visualizacoes . há 4 meses</p>
+        </section>
+
+        <section>
+            <iframe width="914" height="514" src="https://www.youtube.com/embed/qMTX98pCwXA" title="Alinhamento de elementos empacotados no Flexbox - @CursoemVideo HTML5 + CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+            <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo"><img src="img/th (2).jpg" class="perfil"></a>
+            <p class="nome">Alinhamento de elementos empacotados no Flexbox - @CursoemVideo HTML5 + CSS3
+            </p>
+            <p class="pequeno">curso em video . 41 mil visualizacoes . há 2 anos</p>
+        </section>
+
+        <section>
+            <iframe width="914" height="514" src="https://www.youtube.com/embed/sN0ltAepuIc" title="Elementos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+            <a href="https://www.youtube.com/@disneyplusbr"><img src="img/channels4_profile (1).jpg" alt="" class="perfil"></a>
+            <p class="nome">Os opostos se atraem. Descubra Gota e Faísca em Elementos, já disponível no Disney+.</p>
+            <p class="pequeno">Fogo e Água podem viver juntos? Uma animacao <br> imperdivel</p>
+            <p class="pequeno"><strong><span class="branco">patrocinado . </span></strong> Disney+ Brasil</p>
+            <div class="anuncio">
+                <button id="anuncio1">Assistir</button>
+                <button id="anuncio2">Saiba mais</button>
+            </div>
+        </section>
     </main>
-    <main id="pag2">sjnsjnsjnsfsfsffs</main>
+    <main id="pag2">
+
+    </main>
     <footer>
-        <span class="material-symbols-outlined">
-            home
-            </span>
+        
     </footer>
 </body>
 <script src="script.js"></script>
