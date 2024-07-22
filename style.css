@@ -178,5 +178,57 @@ h2 {
     width: 0px;
 }
 
+#lateral {
+    display: block;
+    position: absolute;
+    top: 50px;
+    background-color: rgb(54, 54, 54);
+    width: 70%;
+    padding: 10px;
+}
 
+#lateral p {
+    margin-left: 37px;
+    margin-top: -20px;
+}
+
+#lateral span {
+    margin-top: 20px;
+}
+
+hr {
+    margin: 10px 0px 10px 0px;
+}
+
+#lateral img {
+    padding-top: 10px;
+}
+
+.l {
+    margin-left: -6px;
+}
+
+
+.la {
+    margin-left: 250px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0.455);
+    margin-bottom: -50px;
+}
+
+.la:active {
+    background-color: rgba(240, 248, 255, 0.493);
+}
+
+#barra:hover {
+    background-color: rgba(255, 255, 255, 0.24);
+    width: 100%;
+    padding: 5px;
+}
+
+
+.subir {
+    position: relative;
+    bottom: 20px;
+}
 

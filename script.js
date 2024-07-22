@@ -2,6 +2,7 @@ var pag1 = document.getElementById('pag1')
 var pag2 = document.getElementById('pag2')
 var novidades = document.getElementById('novidades')
 var tudo = document.getElementById('tudo')
+var la = document.getElementById('lateral')
 
 function clicar() {
     pag1.style.display = 'none'
@@ -103,5 +104,16 @@ function sonic() {
     jogo1.style.backgroundColor = ' #ffffff3e'
     jogo1.style.width = '30%'
     por2.innerHTML = '37%'
+}
 
+function entrarb() {
+    la.style.display = 'block'
+    la.style.transition = '100s'
+
+
+}
+
+function sa() {
+    la.style.display = 'none'
+    la.style.transition = '1s'
 }
