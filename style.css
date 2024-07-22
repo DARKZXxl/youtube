@@ -21,7 +21,7 @@ body {
 }
 
 header > .icons {
-    margin-left: 290px;
+    margin-left: 280px;
     margin-top: -60px;
 }
 
@@ -112,7 +112,7 @@ a {
 }
 
 #pag1 {
-    display: block;
+    display: inline-block;
 }
 
 #pag2 {
@@ -143,7 +143,7 @@ h2 {
 }
 
 .anuncio {
-    margin-left: 26px;
+    margin-left: 21px;
 }
 
 #anuncio1 {
@@ -162,3 +162,38 @@ h2 {
     background-color: #3044df;
     color: rgba(0, 0, 0, 0.71);
 }
+
+#pergunta > div img {
+    width: 140px;
+    height: 100px;
+}
+
+#pergunta > div {
+    border: 2px solid #fafafa5c;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+#pergunta > div > p {
+    margin-left: -4px;
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    width: 0px;
+}
+
+#porcento {
+    position: static;
+    left: 1px;
+    color: blue;
+}
+
+#porcento2 {
+    position: static;
+    left: 1px;
+    color: blue;
+}
+
+
