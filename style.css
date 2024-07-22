@@ -163,37 +163,20 @@ h2 {
     color: rgba(0, 0, 0, 0.71);
 }
 
-#pergunta > div img {
-    width: 140px;
-    height: 100px;
-}
 
 #pergunta > div {
     border: 2px solid #fafafa5c;
     border-radius: 5px;
     margin-top: 5px;
-    display: inline-block;
     width: 100%;
 }
 
 #pergunta > div > p {
-    margin-left: -4px;
     display: inline-block;
     position: relative;
     top: -40px;
     width: 0px;
 }
 
-#porcento {
-    position: static;
-    left: 1px;
-    color: blue;
-}
-
-#porcento2 {
-    position: static;
-    left: 1px;
-    color: blue;
-}
 
 
