@@ -3,6 +3,8 @@ var pag2 = document.getElementById('pag2')
 var novidades = document.getElementById('novidades')
 var tudo = document.getElementById('tudo')
 var la = document.getElementById('lateral')
+var sumir = document.getElementById('icons')
+var buto = document.getElementById('button')
 
 function clicar() {
     pag1.style.display = 'none'
@@ -61,6 +63,7 @@ function qual() {
     jogo2.style.width = '40%'
     por3.innerHTML = '54%'
     por3.style.color = 'white'
+
 }
 
 function mario() {
@@ -83,6 +86,8 @@ function mario() {
     jogo2.style.width = '40%'
     por3.innerHTML = '54%'
     por3.style.color = 'white'
+
+
 }
 
 function sonic() {
@@ -104,16 +109,21 @@ function sonic() {
     jogo1.style.backgroundColor = ' #ffffff3e'
     jogo1.style.width = '30%'
     por2.innerHTML = '37%'
+
 }
+
 
 function entrarb() {
     la.style.display = 'block'
-    la.style.transition = '100s'
-
+    sumir.style.display = 'none'
+    buto.style.display = 'none'
 
 }
 
-function sa() {
+function rolar() {
     la.style.display = 'none'
-    la.style.transition = '1s'
+    sumir.style.display = 'block'
+    buto.style.display = 'block'
 }
+
+
