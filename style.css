@@ -8,6 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(0, 0, 0);
     color: white;
+
 }
 
 .material-symbols-outlined {
@@ -115,6 +116,7 @@ a {
     display: inline-block;
 }
 
+
 #pag2 {
     display: none;
     transition: 500ms;
@@ -180,11 +182,15 @@ h2 {
 
 #lateral {
     display: none;
+    margin-top: -50px;
+    margin-left: -5px;
     position: absolute;
-    top: 50px;
     background-color: rgb(54, 54, 54);
     width: 70%;
     padding: 10px;
+    overflow-y: scroll;
+    height: 91vh;
+
 }
 
 #lateral p {
@@ -193,16 +199,14 @@ h2 {
 }
 
 #lateral span {
-    margin-top: 15px;
+    margin-top: 23px;
 }
 
 hr {
     margin: 10px 0px 10px 0px;
 }
 
-#lateral img {
-    padding-top: 10px;
-}
+
 
 .l {
     margin-left: -6px;
@@ -230,4 +234,14 @@ hr {
 .subir {
     position: relative;
     bottom: 20px;
+}
+
+#you {
+    margin-bottom: 10px;
+    
+}
+
+.you2 {
+    position: relative;
+    top: -4px;
 }

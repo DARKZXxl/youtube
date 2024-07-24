@@ -22,7 +22,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-<body onscroll="rolar()">
+
+<body id="body">
+            
+    
+
     <header>
         <img src="img/th (1).jpg" height="70px" style="position: relative; bottom: 10px;">
         <div id="icons">
@@ -46,69 +50,80 @@
             <button class="colorido" onclick="clicar()" id="novidades">Novidades para voce</button>
             <button>Jogos</button>
         </div>
+    
     </header>
 
 
     <main id="pag1">
 
-
-        <main id="lateral">
-            
-            <nav>
-                    <span class="material-symbols-outlined" id="barra">
-                        local_fire_department
-                    </span>
-                    <p>Em Alta</p>
-                        <span class="material-symbols-outlined" id="barra">
-                            local_mall
-                        </span>
-                    <p>Shopping</p>
-                            <span class="material-symbols-outlined" id="barra">
-                                music_note
-                            </span>
-                    <p>Música</p>
-                            <span class="material-symbols-outlined" id="barra">
-                                Movie
-                            </span>
-                    <p>Filmes</p>
-                            <span class="material-symbols-outlined" id="barra">
-                                bigtop_updates
-                            </span>
-                                <p>Ao vivo</p>
-                            <span class="material-symbols-outlined" id="barra">
-                                sports_esports
-                            </span>
-                    <p>Jogos</p>
-                            <span class="material-symbols-outlined" id="barra">
-                                newspaper
-                            </span>
-                    <p>Noticias</p>
-                            <span class="material-symbols-outlined" id="barra">
-                                trophy
-                            </span>
-                    <p>Esportes</p>
-                            <span class="material-symbols-outlined" id="barra">
-                                lightbulb
-                            </span>
-                    <p>Cursos</p>
-                    <span class="material-symbols-outlined" id="barra">
-                        mic
-                        </span>
-                        <p>Podcasts</p>
-                        <span class="material-symbols-outlined" id="barra">
-                            star
-                            </span>
-                            <p>Hypar</p>
-                            <hr>
-                            <img src="img/th (6).png" alt="">
-                            <p style="margin-top: -28px;">YouTube Premium</p>
-                            <img src="img/th (9).png" alt="" style="margin-top: 6px; height: 26px;margin-left: 1px;">
-                            <p>YouTube Music</p>
-                            <p class="pequeno" style="margin-top: 10px; padding: 0px; margin: 20px 0px 0px 0px;">Polícia de Privacidade . Termos de Serviço</p>
-            </nav>
-        </main>
-
         <section>
+            <nav id="lateral" onmouseleave="sai()">
+                <span class="material-symbols-outlined" id="barra">
+                    local_fire_department
+                </span>
+                <p>Em Alta</p>
+                    <span class="material-symbols-outlined" id="barra">
+                        local_mall
+                    </span>
+                <p>Shopping</p>
+                        <span class="material-symbols-outlined" id="barra">
+                            music_note
+                        </span>
+                <p>Música</p>
+                        <span class="material-symbols-outlined" id="barra">
+                            Movie
+                        </span>
+                <p>Filmes</p>
+                        <span class="material-symbols-outlined" id="barra">
+                            bigtop_updates
+                        </span>
+                            <p>Ao vivo</p>
+                        <span class="material-symbols-outlined" id="barra">
+                            sports_esports
+                        </span>
+                <p>Jogos</p>
+                        <span class="material-symbols-outlined" id="barra">
+                            newspaper
+                        </span>
+                <p>Noticias</p>
+                        <span class="material-symbols-outlined" id="barra">
+                            trophy
+                        </span>
+                <p>Esportes</p>
+                        <span class="material-symbols-outlined" id="barra">
+                            lightbulb
+                        </span>
+                <p>Cursos</p>
+                <span class="material-symbols-outlined" id="barra">
+                    mic
+                    </span>
+                    <p>Podcasts</p>
+                    <span class="material-symbols-outlined" id="barra">
+                        star
+                        </span>
+                        <p>Hypar</p>
+                        <hr>
+                        <div id="you">
+                            <img src="img/th (6).png" alt="">
+                            <p>YouTube Premium</p>
+                        </div>
+                        <div id="you">
+                            <img src="img/th (9).png" alt="">
+                            <p>YouTube Music</p>
+                        </div>
+                        <div id="you" class="you2" style="margin-left: -6px; margin-bottom: 20px;">
+                            <img src="img/th (13).png" alt="" style="height: 43px;">
+                            <p style="margin-top: -32px; margin-left: 43px;">YouTube studio</p>
+                        </div>
+                        <div id="you" class="you2">
+                            <img src="img/th (11).png" alt="">
+                            <p style="margin-left: 36px; margin-top: -26px;">YouTube kids</p>
+                        </div>
+                        <p class="pequeno" style="margin-top: 10px; padding: 0px; margin: 20px 0px 0px 0px;">Polícia de Privacidade . Termos de Serviço</p>
+                </nav>
+            </section>
+
+
             <iframe src="https://www.youtube.com/embed/MkrBADf9TD8" title="Prime Prime" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen  class="video"></iframe>
             <img src="img/th.jpg" alt="" class="perfil">
             <p class="nome">Ta no Ar o Prime Day</p>
@@ -124,173 +139,151 @@
         </section>
 
         <section>
-            <iframe src="https://www.youtube.com/embed/BSnjW2DKd9k" title="NINGUÉM sabe quanto PESA 1 KG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@CienciaTodoDia"><img src="img/unnamed.jpg" class="perfil"></a>
-            <p class="nome">NINGUÉM sabe quanto PESA 1 KG</p>
-            <p class="pequeno">Ciencia Todo Dia . 707 mil visualizacoes . há 1 mes</p>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/4SNThp0YiU4" title="50 YouTubers Disputam US$ 1,000,000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@MrBeast"><img src="img/channels4_profile.jpg" alt="" class="perfil"></a>
-            <p class="nome">50 YouTubers Disputam US$ 1,000,000</p>
-            <p class="pequeno">MrBeast . 164 mi de visualizacoes . há 8 dias</p>
-        </section>
-        <div class="shortimg">
-            <img src="img/shorts.png" width="30px" class="shortiimg">
-                <h2>short</h2>
-            </img>
-        </div>
-        <section id="short">
-            <iframe src="https://www.youtube.com/embed/qO60JQ8qDqY" title="Vida de polícia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
-
-            <iframe src="https://www.youtube.com/embed/v0a1vylbP_8" title="Costela coroa 👑" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
-
-            <iframe src="https://www.youtube.com/embed/-XA47Czd9eU" title="R$2,00 para cada segundo que você ficar na Barra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
-
-            <iframe width="356" height="634" src="https://www.youtube.com/embed/9ZjI9LdgHUY" title="🤣ROUBEI O BOLO DA MINHA AVÓ (feat. @rosangela_rigoni)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
-        </section>
-        
-        <section>
-             <iframe width="914" height="514" src="https://www.youtube.com/embed/W_QuHtlv8j8" title="EU ZEREI O SKYBLOCK DO MINECRAFT EM 2024!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-        <a href="https://www.youtube.com/@Jazzghost"><img src="img/gost.jpg" alt="" class="perfil"></a>
-        <p class="nome">EU ZEREI O SKYBLOCK DO MINECRAFT EM 2024!
-        </p>
-        <p class="pequeno">Jazzghost . 2,8 mi de visualizacoes . há 3 meses</p>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/Zrv1EDIqHkY" title="O Mais Antigo Problema Não Resolvido da Matemática" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@veritasium"><img src="img/mate.jpg" alt="" class="perfil"></a>
-            <p class="nome">O Mais Antigo Problema Não Resolvido da Matemática
-            </p>
-            <p class="pequeno">Veritasium . 8,7 mi de visualizacoes . há 4 meses</p>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/qMTX98pCwXA" title="Alinhamento de elementos empacotados no Flexbox - @CursoemVideo HTML5 + CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo"><img src="img/th (2).jpg" class="perfil"></a>
-            <p class="nome">Alinhamento de elementos empacotados no Flexbox - @CursoemVideo HTML5 + CSS3
-            </p>
-            <p class="pequeno">curso em video . 41 mil visualizacoes . há 2 anos</p>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/sN0ltAepuIc" title="Elementos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@disneyplusbr"><img src="img/channels4_profile (1).jpg" alt="" class="perfil"></a>
-            <p class="nome">Os opostos se atraem. Descubra Gota e Faísca em Elementos, já disponível no Disney+.</p>
-            <p class="pequeno">Fogo e Água podem viver juntos? Uma animacao <br> imperdivel</p>
-            <p class="pequeno"><strong><span class="branco">patrocinado . </span></strong> Disney+ Brasil</p>
-            <div class="anuncio">
-                <button id="anuncio1">Assistir</button>
-                <button id="anuncio2">Saiba mais</button>
+            <section>
+                <iframe src="https://www.youtube.com/embed/BSnjW2DKd9k" title="NINGUÉM sabe quanto PESA 1 KG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@CienciaTodoDia"><img src="img/unnamed.jpg" class="perfil"></a>
+                <p class="nome">NINGUÉM sabe quanto PESA 1 KG</p>
+                <p class="pequeno">Ciencia Todo Dia . 707 mil visualizacoes . há 1 mes</p>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/4SNThp0YiU4" title="50 YouTubers Disputam US$ 1,000,000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@MrBeast"><img src="img/channels4_profile.jpg" alt="" class="perfil"></a>
+                <p class="nome">50 YouTubers Disputam US$ 1,000,000</p>
+                <p class="pequeno">MrBeast . 164 mi de visualizacoes . há 8 dias</p>
+            </section>
+            <div class="shortimg">
+                <img src="img/shorts.png" width="30px" class="shortiimg">
+                    <h2>short</h2>
+                </img>
             </div>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/C-AA7wX-Lqc" title="👉COMECE A PROGRAMAR POR AQUI👈" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@criascript"><img src="img/channels4_profile (2).jpg" alt="" class="perfil"></a>
-            <p class="nome">👉COMECE A PROGRAMAR POR AQUI👈
+            <section id="short">
+                <iframe src="https://www.youtube.com/embed/qO60JQ8qDqY" title="Vida de polícia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+                <iframe src="https://www.youtube.com/embed/v0a1vylbP_8" title="Costela coroa 👑" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+                <iframe src="https://www.youtube.com/embed/-XA47Czd9eU" title="R$2,00 para cada segundo que você ficar na Barra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/9ZjI9LdgHUY" title="🤣ROUBEI O BOLO DA MINHA AVÓ (feat. @rosangela_rigoni)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+            </section>
+            
+            <section>
+                 <iframe width="914" height="514" src="https://www.youtube.com/embed/W_QuHtlv8j8" title="EU ZEREI O SKYBLOCK DO MINECRAFT EM 2024!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+            <a href="https://www.youtube.com/@Jazzghost"><img src="img/gost.jpg" alt="" class="perfil"></a>
+            <p class="nome">EU ZEREI O SKYBLOCK DO MINECRAFT EM 2024!
             </p>
-            <p class="pequeno">criascript . 9,7 mil visualizacoes . há 9 dias</p>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/3-GICRxg0T8" title="PESTE NEGRA e o CAOS na IDADE MÉDIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@tinocandotv"><img src="img/channels4_profile (3).jpg" alt="" class="perfil"></a>
-            <p class="nome">PESTE NEGRA e o CAOS na IDADE MÉDIA</p>
-            <p class="pequeno">Tinocando TV . 1,5 mi de visualizacoes . há 10 meses</p>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/Y6Le3S0cX20" title="Andreas MUNZER: o fisiculturista MORTO-VIVO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@fatosdesconhecidos"><img src="img/channels4_profile (4).jpg" alt="" class="perfil"></a>
-            <p class="nome">andreas MUNZER: o fisiculturista MORTO-VIVO</p>
-            <p class="pequeno">Fatos Desconhecidos . 981 mil visualizacoes . há 6 meses</p>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/FaUrGRD0PrI" title="As armas mais absurdas da Segunda Guerra - Por trás do conflito!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@fatosdesconhecidos"><img src="img/channels4_profile (4).jpg" alt="" class="perfil"></a>
-            <p class="nome">As armas mais absurdas da Segunda Guerra - Por trás do conflito!
-            </p>
-            <p class="pequeno">Fatos Desconhecidos . 220 mil visualizacoes . há 2 meses</p>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/0gHMEzsY3c8" title="SEU E-MAIL É SEGURO? Descubra a Verdade!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@brunofragax"><img src="img/channels4_profile (5).jpg" alt="" class="perfil"></a>
-            <p class="nome">SEU E-MAIL É SEGURO? Descubra a Verdade!
-            </p>
-            <p class="pequeno">Bruno Fraga . 155 mil visualizacoes . há 7 meses</p>
-        </section>
-
-        <section id="pergunta">
-            <img src="img/channels4_profile (6).jpg" alt="" class="perfil" style="margin-left: 0px;">
-            <p class="nome"> descoberta mental</p>
-            <p class="pequeno"> há 1 dia</p>
-            <p style="margin-left: 5px;">Comente qual JOGO marcou sua INFANCIA <br>
-            <span style="color: rgb(91, 91, 255);">#games #jogos #nostalgia #retro</span></p>
-
-            <div onclick="qual()" id="pac">
-                <img src="img/th (3).jpg" >
-                <p id="jogo">PacMan</p>
-            <p id="porcento"></p>
-        </div>
-        
-        <div onclick="mario()" id="mario">
-            <img src="img/th (4).jpg" alt="">
-            <p id="jogo1">mario</p>
-            <p id="porcento1"></p>
-        </div>
-
-        <div onclick="sonic()" id="sonic">
-            <img src="img/th (5).jpg" alt="">
-            <p id="jogo2">sonic</p>
-            <p id="porcento2"></p>
-        </div>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/Nhmo6hfBZgk" title="Existem TRILHÕES no fundo do mar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@CienciaTodoDia"><img src="img/unnamed.jpg" class="perfil"></a>
-            <p class="nome">Existem TRILHÕES no fundo do mar
-            </p>
-            <p class="pequeno">Ciencia Todo Dia . 281 mil visualizacoes . há 13 dias</p>
-        </section>
-
-        <div class="shortimg">
-            <img src="img/shorts.png" width="30px" class="shortiimg">
-                <h2>short</h2>
-            </img>
-        </div>
-        <section id="short">
-            <iframe width="356" height="634" src="https://www.youtube.com/embed/pBrk4EhSskk" title="Orangutan Enjoys Art." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
-
-            <iframe width="356" height="634" src="https://www.youtube.com/embed/Q3vjDLdG3So" title="O pai de santo apareceu 😂" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
-
-            <iframe width="356" height="634" src="https://www.youtube.com/embed/yWCjZNBtNpw" title="MB_22087_11312_MA_PT_gen_YFM_Vid_Var_1080x1920_m-ftn-wrk_ani_our__" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
-
-            <iframe width="356" height="634" src="https://www.youtube.com/embed/JYyNexmzpws" title="e se um CARRO fosse movido a URÂNIO?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/3vdzghRCprU" title="Como memorizar ABSOLUTAMENTE TUDO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@CienciaTodoDia"><img src="img/unnamed.jpg" class="perfil"></a>
-            <p class="nome">Como memorizar ABSOLUTAMENTE TUDO
-            </p>
-            <p class="pequeno">Ciencia Todo Dia . 2,3 mi visualizacoes . há 3 meses</p>
-        </section>
-
-        <section>
-            <iframe width="914" height="514" src="https://www.youtube.com/embed/Cw7ewAR4enQ" title="12 MISTÉRIOS da MONA LISA - Porque ELA É TÃO FAMOSA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
-            <a href="https://www.youtube.com/@vocesabia"><img src="img/unnamed (1).jpg" alt="" class="perfil"></a>
-            <p class="nome">12 MISTÉRIOS da MONA LISA - Porque ELA É TÃO FAMOSA?
-            </p>
-            <p class="pequeno">Voce Sabia? . 631 mil de visualizacoes . há 2 semanas</p>
-        </section>
-    </main>
-
+            <p class="pequeno">Jazzghost . 2,8 mi de visualizacoes . há 3 meses</p>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/Zrv1EDIqHkY" title="O Mais Antigo Problema Não Resolvido da Matemática" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@veritasium"><img src="img/mate.jpg" alt="" class="perfil"></a>
+                <p class="nome">O Mais Antigo Problema Não Resolvido da Matemática
+                </p>
+                <p class="pequeno">Veritasium . 8,7 mi de visualizacoes . há 4 meses</p>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/qMTX98pCwXA" title="Alinhamento de elementos empacotados no Flexbox - @CursoemVideo HTML5 + CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo"><img src="img/th (2).jpg" class="perfil"></a>
+                <p class="nome">Alinhamento de elementos empacotados no Flexbox - @CursoemVideo HTML5 + CSS3
+                </p>
+                <p class="pequeno">curso em video . 41 mil visualizacoes . há 2 anos</p>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/sN0ltAepuIc" title="Elementos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@disneyplusbr"><img src="img/channels4_profile (1).jpg" alt="" class="perfil"></a>
+                <p class="nome">Os opostos se atraem. Descubra Gota e Faísca em Elementos, já disponível no Disney+.</p>
+                <p class="pequeno">Fogo e Água podem viver juntos? Uma animacao <br> imperdivel</p>
+                <p class="pequeno"><strong><span class="branco">patrocinado . </span></strong> Disney+ Brasil</p>
+                <div class="anuncio">
+                    <button id="anuncio1">Assistir</button>
+                    <button id="anuncio2">Saiba mais</button>
+                </div>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/C-AA7wX-Lqc" title="👉COMECE A PROGRAMAR POR AQUI👈" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@criascript"><img src="img/channels4_profile (2).jpg" alt="" class="perfil"></a>
+                <p class="nome">👉COMECE A PROGRAMAR POR AQUI👈
+                </p>
+                <p class="pequeno">criascript . 9,7 mil visualizacoes . há 9 dias</p>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/3-GICRxg0T8" title="PESTE NEGRA e o CAOS na IDADE MÉDIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@tinocandotv"><img src="img/channels4_profile (3).jpg" alt="" class="perfil"></a>
+                <p class="nome">PESTE NEGRA e o CAOS na IDADE MÉDIA</p>
+                <p class="pequeno">Tinocando TV . 1,5 mi de visualizacoes . há 10 meses</p>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/Y6Le3S0cX20" title="Andreas MUNZER: o fisiculturista MORTO-VIVO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@fatosdesconhecidos"><img src="img/channels4_profile (4).jpg" alt="" class="perfil"></a>
+                <p class="nome">andreas MUNZER: o fisiculturista MORTO-VIVO</p>
+                <p class="pequeno">Fatos Desconhecidos . 981 mil visualizacoes . há 6 meses</p>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/FaUrGRD0PrI" title="As armas mais absurdas da Segunda Guerra - Por trás do conflito!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@fatosdesconhecidos"><img src="img/channels4_profile (4).jpg" alt="" class="perfil"></a>
+                <p class="nome">As armas mais absurdas da Segunda Guerra - Por trás do conflito!
+                </p>
+                <p class="pequeno">Fatos Desconhecidos . 220 mil visualizacoes . há 2 meses</p>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/0gHMEzsY3c8" title="SEU E-MAIL É SEGURO? Descubra a Verdade!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@brunofragax"><img src="img/channels4_profile (5).jpg" alt="" class="perfil"></a>
+                <p class="nome">SEU E-MAIL É SEGURO? Descubra a Verdade!
+                </p>
+                <p class="pequeno">Bruno Fraga . 155 mil visualizacoes . há 7 meses</p>
+            </section>
+            <section id="pergunta">
+                <img src="img/channels4_profile (6).jpg" alt="" class="perfil" style="margin-left: 0px;">
+                <p class="nome"> descoberta mental</p>
+                <p class="pequeno"> há 1 dia</p>
+                <p style="margin-left: 5px;">Comente qual JOGO marcou sua INFANCIA <br>
+                <span style="color: rgb(91, 91, 255);">#games #jogos #nostalgia #retro</span></p>
+                <div onclick="qual()" id="pac">
+                    <img src="img/th (3).jpg" >
+                    <p id="jogo">PacMan</p>
+                <p id="porcento"></p>
+            </div>
+            
+            <div onclick="mario()" id="mario">
+                <img src="img/th (4).jpg" alt="">
+                <p id="jogo1">mario</p>
+                <p id="porcento1"></p>
+            </div>
+            <div onclick="sonic()" id="sonic">
+                <img src="img/th (5).jpg" alt="">
+                <p id="jogo2">sonic</p>
+                <p id="porcento2"></p>
+            </div>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/Nhmo6hfBZgk" title="Existem TRILHÕES no fundo do mar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@CienciaTodoDia"><img src="img/unnamed.jpg" class="perfil"></a>
+                <p class="nome">Existem TRILHÕES no fundo do mar
+                </p>
+                <p class="pequeno">Ciencia Todo Dia . 281 mil visualizacoes . há 13 dias</p>
+            </section>
+            <div class="shortimg">
+                <img src="img/shorts.png" width="30px" class="shortiimg">
+                    <h2>short</h2>
+                </img>
+            </div>
+            <section id="short">
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/pBrk4EhSskk" title="Orangutan Enjoys Art." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/Q3vjDLdG3So" title="O pai de santo apareceu 😂" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/yWCjZNBtNpw" title="MB_22087_11312_MA_PT_gen_YFM_Vid_Var_1080x1920_m-ftn-wrk_ani_our__" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/JYyNexmzpws" title="e se um CARRO fosse movido a URÂNIO?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="short"></iframe>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/3vdzghRCprU" title="Como memorizar ABSOLUTAMENTE TUDO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@CienciaTodoDia"><img src="img/unnamed.jpg" class="perfil"></a>
+                <p class="nome">Como memorizar ABSOLUTAMENTE TUDO
+                </p>
+                <p class="pequeno">Ciencia Todo Dia . 2,3 mi visualizacoes . há 3 meses</p>
+            </section>
+            <section>
+                <iframe width="914" height="514" src="https://www.youtube.com/embed/Cw7ewAR4enQ" title="12 MISTÉRIOS da MONA LISA - Porque ELA É TÃO FAMOSA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                <a href="https://www.youtube.com/@vocesabia"><img src="img/unnamed (1).jpg" alt="" class="perfil"></a>
+                <p class="nome">12 MISTÉRIOS da MONA LISA - Porque ELA É TÃO FAMOSA?
+                </p>
+                <p class="pequeno">Voce Sabia? . 631 mil de visualizacoes . há 2 semanas</p>
+            </section>
+                </main>
 
     <main id="pag2">
         <section>

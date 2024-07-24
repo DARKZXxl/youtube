@@ -5,6 +5,7 @@ var tudo = document.getElementById('tudo')
 var la = document.getElementById('lateral')
 var sumir = document.getElementById('icons')
 var buto = document.getElementById('button')
+var body = document.getElementById('body')
 
 function clicar() {
     pag1.style.display = 'none'
@@ -114,16 +115,15 @@ function sonic() {
 
 
 function entrarb() {
-    la.style.display = 'block'
-    sumir.style.display = 'none'
-    buto.style.display = 'none'
-
+    la.style.display = 'inline-block'
+    body.style.overflow = 'hidden'
+    
 }
 
-function rolar() {
+function sai() {
+    body.style.overflowY = 'scroll'
     la.style.display = 'none'
-    sumir.style.display = 'block'
-    buto.style.display = 'block'
+
 }
 
 
