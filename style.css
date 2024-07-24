@@ -170,8 +170,10 @@ h2 {
     border: 2px solid #fafafa5c;
     border-radius: 5px;
     margin-top: 5px;
-    width: 100%;
+    width: 20%;
 }
+
+
 
 #pergunta > div > p {
     display: inline-block;
@@ -189,7 +191,7 @@ h2 {
     width: 70%;
     padding: 10px;
     overflow-y: scroll;
-    height: 91vh;
+    height: 87vh;
 
 }
 

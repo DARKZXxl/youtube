@@ -121,7 +121,6 @@ function entrarb() {
 
 function sai() {
     la.style.display = 'none'
-
 }
 
 
