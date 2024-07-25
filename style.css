@@ -184,14 +184,14 @@ h2 {
 
 #lateral {
     display: none;
-    margin-top: 0px;
+    margin-top: -50px;
     margin-left: -5px;
     position: absolute;
     background-color: rgb(54, 54, 54);
     width: 70%;
     padding: 10px;
     overflow-y: scroll;
-    height: 90vh;
+    height: 91%;
 
 }
 

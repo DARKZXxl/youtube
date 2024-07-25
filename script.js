@@ -116,7 +116,7 @@ function sonic() {
 
 function entrarb() {
     la.style.display = 'inline-block'
-    body.style.overflow = 'hidden'
+    body.style.overflowY = 'hidden'
     
 }
 
