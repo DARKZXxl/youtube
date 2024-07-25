@@ -120,9 +120,9 @@ function entrarb() {
     
 }
 
-function sai() {
+function ai() {
     la.style.display = 'none'
-    body.style.overflow = 'scroll'
+    body.style.overflowY = 'scroll'
 }
 
 
