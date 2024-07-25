@@ -183,7 +183,7 @@ h2 {
 }
 
 #lateral {
-    display: block;
+    display: none;
     margin-top: -91px;
     margin-left: -5px;
     position: absolute;

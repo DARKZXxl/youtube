@@ -116,13 +116,11 @@ function sonic() {
 
 function entrarb() {
     la.style.display = 'inline-block'
-    body.style.overflowY = 'hidden'
     
 }
 
-function ai() {
+function sai() {
     la.style.display = 'none'
-    body.style.overflowY = 'scroll'
 }
 
 
