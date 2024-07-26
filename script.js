@@ -6,6 +6,7 @@ var la = document.getElementById('lateral')
 var sumir = document.getElementById('icons')
 var buto = document.getElementById('button')
 var body = document.getElementById('body')
+var foo = document.getElementById('footer')
 
 function clicar() {
     pag1.style.display = 'none'
@@ -116,11 +117,13 @@ function sonic() {
 
 function entrarb() {
     la.style.display = 'inline-block'
+    foo.style.display = 'none'
     
 }
 
 function sai() {
     la.style.display = 'none'
+    foo.style.display = 'inline-block'
 }
 
 
