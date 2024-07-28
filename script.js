@@ -9,6 +9,7 @@ var body = document.getElementById('body')
 var foo = document.getElementById('footer')
 var jogos = document.getElementById('jogos')
 var pag3 = document.getElementById('pag3')
+var bul = document.getElementById('bulsola')
 
 function clicar() {
     pag1.style.display = 'none'
@@ -22,6 +23,8 @@ function clicar() {
     jogos.style.backgroundColor = '#ffffff3e'
     jogos.style.color = 'white'
     pag3.style.display = 'none'
+    pag4.style.display = 'none'
+    pag5.style.display = 'none'
     
 }
 
@@ -37,6 +40,7 @@ function jo() {
     novidades.style.color = 'white'
     pag3.style.display = 'block'
     pag2.style.display = 'none'
+    pag4.style.display = 'none'
 }
 
 function voltar() {
@@ -51,6 +55,7 @@ function voltar() {
     tudo.style.transition = '1s'
     jogos.style.backgroundColor = '#ffffff3e'
     jogos.style.color = 'white'
+    pag4.style.display = 'none'
 }
 
 var jogo = document.getElementById('pac')
@@ -146,4 +151,70 @@ function sai() {
     foo.style.display = 'inline-block'
 }
 
+var shor = document.getElementById('shor')
+var pag4 = document.getElementById('pag4')
+var home = document.getElementById('home')
+var is = document.getElementById('is')
+var pag5 = document.getElementById('pag5')
+var pag6 = document.getElementById('pag6')
+var vo = document.getElementById('vo')
 
+
+function sho() {
+    pag1.style.display = 'none'
+    pag4.style.display = 'block'
+    shor.src = 'img/icons8-shorts-do-youtube.png'
+    home.src = 'img/icons8-casa-50.png'
+    pag2.style.display = 'none'
+    pag3.style.display = 'none'
+    buto.style.display = 'none'
+    bul.style.display = 'none'
+    pag5.style.display = 'none'
+     is.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4UlEQVR4nO3XsQ2CUBSF4VvpBE5h4wx2DuAszmJn5RIkFjCApYYhHMDmNxhpDCaYJ4975XwtyX05Oe9CMBMReQfMgCvDqyxDkEuGIOWgQWQi+zDs3pBvH/oqf96W5ACciKfqChKSfQpiQaAgzqBGnEGNOIMa6Qk4AhuL3ghwfo0qgGXqPA9BGndgDyxS544dpHUDdsA8df7YQVo1sE09w0OQVvPLsEo856n/g+8PmESQOvrVukVf9vs/vH6L6B/EA7BOnTN6kFxQEGdQI86gRpxhMo1EYx1BKuIpM10AETEnHmo3wltDHUm6AAAAAElFTkSuQmCC'
+    vo.style.height = '23px'
+    vo.style.border = 'none'
+    pag6.style.display = 'none'
+}
+
+function ho() {
+    pag1.style.display = 'block'
+    home.src = 'img/icons8-casa-24.png'
+    shor.src = 'img/icons8-shorts-do-youtube (1).svg'
+    pag2.style.display = 'none'
+    pag3.style.display = 'none'
+    buto.style.display = 'block'
+    bul.style.display = 'block'
+    is.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4UlEQVR4nO3XsQ2CUBSF4VvpBE5h4wx2DuAszmJn5RIkFjCApYYhHMDmNxhpDCaYJ4975XwtyX05Oe9CMBMReQfMgCvDqyxDkEuGIOWgQWQi+zDs3pBvH/oqf96W5ACciKfqChKSfQpiQaAgzqBGnEGNOIMa6Qk4AhuL3ghwfo0qgGXqPA9BGndgDyxS544dpHUDdsA8df7YQVo1sE09w0OQVvPLsEo856n/g+8PmESQOvrVukVf9vs/vH6L6B/EA7BOnTN6kFxQEGdQI86gRpxhMo1EYx1BKuIpM10AETEnHmo3wltDHUm6AAAAAElFTkSuQmCC'
+    vo.style.height = '23px'
+    vo.style.border = 'none'
+}
+
+function ins() {
+    is.src = 'img/icons8-subscrição-24.png'
+    home.src = 'img/icons8-casa-50.png'
+    shor.src = 'img/icons8-shorts-do-youtube (1).svg'
+    pag1.style.display = 'none'
+    pag5.style.display = 'block'
+    pag4.style.display = 'none'
+    vo.style.height = '23px'
+    vo.style.border = 'none'
+    pag6.style.display = 'none'
+    buto.style.display = 'none'
+    bul.style.display = 'none'
+}
+
+function voc() {
+    vo.style.border = '3px solid white'
+    vo.style.borderRadius = '50%'
+    vo.style.height = '19px'
+    pag1.style.display = 'none'
+    pag6.style.display = 'block'
+    pag5.style.display = 'none'
+    is.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4UlEQVR4nO3XsQ2CUBSF4VvpBE5h4wx2DuAszmJn5RIkFjCApYYhHMDmNxhpDCaYJ4975XwtyX05Oe9CMBMReQfMgCvDqyxDkEuGIOWgQWQi+zDs3pBvH/oqf96W5ACciKfqChKSfQpiQaAgzqBGnEGNOIMa6Qk4AhuL3ghwfo0qgGXqPA9BGndgDyxS544dpHUDdsA8df7YQVo1sE09w0OQVvPLsEo856n/g+8PmESQOvrVukVf9vs/vH6L6B/EA7BOnTN6kFxQEGdQI86gRpxhMo1EYx1BKuIpM10AETEnHmo3wltDHUm6AAAAAElFTkSuQmCC'
+    shor.src = 'img/icons8-shorts-do-youtube (1).svg'
+    pag4.style.display = 'none'
+    buto.style.display = 'none'
+    bul.style.display = 'none'
+    home.src = 'img/icons8-casa-50.png'
+
+}
