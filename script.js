@@ -25,6 +25,7 @@ function clicar() {
     pag3.style.display = 'none'
     pag4.style.display = 'none'
     pag5.style.display = 'none'
+    pag6.style.display = 'none'
     
 }
 
@@ -41,6 +42,7 @@ function jo() {
     pag3.style.display = 'block'
     pag2.style.display = 'none'
     pag4.style.display = 'none'
+    pag6.style.display = 'none'
 }
 
 function voltar() {
