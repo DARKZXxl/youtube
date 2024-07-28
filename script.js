@@ -7,6 +7,8 @@ var sumir = document.getElementById('icons')
 var buto = document.getElementById('button')
 var body = document.getElementById('body')
 var foo = document.getElementById('footer')
+var jogos = document.getElementById('jogos')
+var pag3 = document.getElementById('pag3')
 
 function clicar() {
     pag1.style.display = 'none'
@@ -17,7 +19,24 @@ function clicar() {
     novidades.style.background = 'white'
     novidades.style.color = 'black'
     novidades.style.transition = '800ms'
+    jogos.style.backgroundColor = '#ffffff3e'
+    jogos.style.color = 'white'
+    pag3.style.display = 'none'
     
+}
+
+function jo() {
+    pag1.style.display = 'none'
+    jogos.style.backgroundColor = 'white'
+    jogos.style.color = 'black'
+    tudo.style.backgroundColor = '#ffffff3e'
+    tudo.style.color = 'white'
+    jogos.style.transition = '600ms'
+    novidades.style.background = 'linear-gradient(#000000, #000000)padding-box,linear-gradient(90deg,#30dfd3, #7d3bdf, #e827db, #c022a0, #e53434, #e36b26) border-box'
+    novidades.style.border = '1px solid transparent'
+    novidades.style.color = 'white'
+    pag3.style.display = 'block'
+    pag2.style.display = 'none'
 }
 
 function voltar() {
@@ -30,7 +49,8 @@ function voltar() {
     novidades.style.border = '1px solid transparent'
     novidades.style.color = 'white'
     tudo.style.transition = '1s'
-    
+    jogos.style.backgroundColor = '#ffffff3e'
+    jogos.style.color = 'white'
 }
 
 var jogo = document.getElementById('pac')
