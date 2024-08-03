@@ -10,6 +10,7 @@ var foo = document.getElementById('footer')
 var jogos = document.getElementById('jogos')
 var pag3 = document.getElementById('pag3')
 var bul = document.getElementById('bulsola')
+var sd = document.getElementById('sd')
 
 function clicar() {
     pag1.style.display = 'none'
@@ -143,14 +144,21 @@ function sonic() {
 
 
 function entrarb() {
-    la.style.display = 'inline-block'
+    la.style.width = '70%'
     foo.style.display = 'none'
+    la.style.overflowY = 'scroll'
+    la.style.transition = '1s'
+    sd.style.display = 'block'
+    la.style.marginLeft = '-5px'
     
 }
 
 function sai() {
-    la.style.display = 'none'
     foo.style.display = 'inline-block'
+    la.style.width = '0px'
+    sd.style.display = 'none'
+    la.style.transition = '0ms'
+    la.style.marginLeft = '-25px'
 }
 
 var shor = document.getElementById('shor')

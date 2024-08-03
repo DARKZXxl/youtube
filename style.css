@@ -183,16 +183,18 @@ h2 {
 }
 
 #lateral {
-    display: none;
     margin-top: -91px;
-    margin-left: -5px;
+    margin-left: -25px;
     position: absolute;
     background-color: rgb(54, 54, 54);
-    width: 70%;
+    width: 0%;
     padding: 10px;
-    overflow-y: scroll;
     height: 100%;
 
+}
+
+#sd {
+    display: none;
 }
 
 #lateral p {
