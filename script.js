@@ -93,7 +93,6 @@ function qual() {
     jogo2.style.width = '40%'
     por3.innerHTML = '54%'
     por3.style.color = 'white'
-
 }
 
 function mario() {
