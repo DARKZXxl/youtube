@@ -148,8 +148,8 @@ function entrarb() {
     la.style.overflowY = 'scroll'
     la.style.transition = '1s'
     sd.style.display = 'block'
-    la.style.marginLeft = '-5px'
-    
+    la.style.backgroundColor = 'rgb(54, 54, 54)'
+    body.style.overflow = 'hidden'
 }
 
 function sai() {
@@ -157,7 +157,11 @@ function sai() {
     la.style.width = '0px'
     sd.style.display = 'none'
     la.style.transition = '0ms'
-    la.style.marginLeft = '-25px'
+    la.style.marginLeft = '-2px'
+    la.style.backgroundColor = 'rgba(255, 255, 255, 0)'
+    la.style.overflowY = 'hidden'
+    body.style.overflow = 'scroll'
+
 }
 
 var shor = document.getElementById('shor')
