@@ -143,8 +143,7 @@ function sonic() {
 
 
 function entrarb() {
-    la.style.width = '70%'
-    foo.style.display = 'none'
+    la.style.width = '20%'
     la.style.overflowY = 'scroll'
     la.style.transition = '1s'
     sd.style.display = 'block'
@@ -153,14 +152,13 @@ function entrarb() {
 }
 
 function sai() {
-    foo.style.display = 'inline-block'
     la.style.width = '0px'
     sd.style.display = 'none'
     la.style.transition = '0ms'
     la.style.marginLeft = '-2px'
     la.style.backgroundColor = 'rgba(255, 255, 255, 0)'
     la.style.overflowY = 'hidden'
-    body.style.overflow = 'scroll'
+    body.style.overflowY = 'scroll'
 
 }
 

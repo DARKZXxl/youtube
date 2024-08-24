@@ -192,6 +192,7 @@ h2 {
     width: 0%;
     padding: 10px;
     height: 100%;
+    z-index: 20;
 }
 
 #sd {
@@ -263,9 +264,7 @@ footer {
     height: 42px;
     position: fixed;
     bottom: 0;
-    margin: auto;
     padding: 0px;
-    width: 54%;
 }
 
 footer img {
@@ -309,6 +308,10 @@ footer .emo {
 
 #centro {
     margin: auto;
-    max-width: 25rem;
+    max-width: 25.5rem;
     background-color: black;
+}
+
+#vo {
+    padding-right: 51px;
 }
