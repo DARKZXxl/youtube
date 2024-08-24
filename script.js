@@ -143,7 +143,7 @@ function sonic() {
 
 
 function entrarb() {
-    la.style.width = '20%'
+    la.style.width = '19rem'
     la.style.overflowY = 'scroll'
     la.style.transition = '1s'
     sd.style.display = 'block'
